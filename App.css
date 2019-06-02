@@ -1,0 +1,30 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+meter {
+  width: 180px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+meter::-webkit-meter-bar {
+  /*background: none; *//* Required to get rid of the default background property */
+  background-color: whiteSmoke;
+  box-shadow: 0 5px 5px -5px #333 inset;
+}
